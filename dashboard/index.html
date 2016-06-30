@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">    
+	<link rel="shortcut icon" href="favicon.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>Yao | Dashboard</title>
+	<!-- STYLES CSS -->
+		<link rel="stylesheet" type="text/css" href="css/reset.css">	
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- REFERENCEMENT -->
+	    <meta name="description" content="" />
+	    <meta name="keywords" content="dashboard, media, social" />
+	    <meta name="author" content="Groupe 5" />
+	    <meta name="copyright" content="© Hetic Web1 Inc." />
+    <!-- SCRIPT -->
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+	    <link rel="stylesheet" href="css/chartist.css">
+		<script src="js/chartist.min.js"></script>		
+</head>
+<body class="animsition noselect" data-animsition-in-class="fade-in-up" data-animsition-in-duration="1000" data-animsition-out-class="fade-out-up" data-animsition-out-duration="800">
+	<!-- DEBUT HEADER -->
+	<header>
+		<nav class="horizontal">
+			<div class="color-logo">
+				<div class="bloc"></div>
+				<div class="logo"><img src="images/logo2.png"></div>
+			</div>
+			<div class="status">
+				<ul>
+					<li><img src="images/notif.png"></li>
+					<li><img src="images/msg.png"></li>
+				</ul>
+				<p>Bonjour <strong>Elvinn</strong></p>
+			</div>
+		</nav>
+		<nav class="vertical">
+			<ul class="main-ul">
+				<li>General</li>
+				<li class="menu-1"><div class="open1">+</div><div class="close1">-</div>Worklist</li>
+					<ul class="submenu-1">
+						<li>Calendrier</li>
+						<li>Hub</li>
+					</ul>
+				<li class="menu-2"><div class="open2">+</div><div class="close2">-</div>Create</li>
+					<ul class="submenu-2">
+						<li>Projet</li>
+						<li>Tâche</li>
+						<li>Budget</li>
+						<li>Lead</li>
+						<li>Question</li>
+					</ul>
+				<li>Paramètres</li>
+			</ul>
+		</nav>
+		<!-- DEBUT NAV RESPONSIVE -->
+		<nav class="responsive">
+			<div id="toggle"><span></span></div>
+				<div id="menu">
+					<p class="welcome">Bonjour <strong>Elvinn</strong></p>
+						<div class="line"></div>
+							<ul class="main-ul">
+								<li>General</li>
+								<li class="menu-1"><div class="open1">+</div><div class="close1">-</div>Worklist</li>
+									<ul class="submenu-1">
+										<li>Calendrier</li>
+										<li>Hub</li>
+									</ul>
+								<li class="menu-2"><div class="open2">+</div><div class="close2">-</div>Create</li>
+									<ul class="submenu-2">
+										<li>Projet</li>
+										<li>Tâche</li>
+										<li>Budget</li>
+										<li>Lead</li>
+										<li>Question</li>
+									</ul>
+								<li>Paramètres</li>
+							</ul>
+				</div>
+		</nav>
+		<!-- FIN NAV RESPONSIVE -->
+	</header>
+	<!-- FIN HEADER -->
+
+	<!-- DEBUT MAIN -->
+	<main role="main">
+		<div class="container">
+			<div class="card-1">
+				<div class="frame-1">
+					<nav class="manage">
+						<ul class="category1">
+							<li class="category1-li"><img src="images/chart.png">Categorie<div class="open3">+</div><div class="close3">-</div></li>
+								<ul class="category1-sub">
+									<li>Likes</li>
+									<li>Followers</li>
+									<li>Écoutes</li>
+								</ul>
+							
+						</ul>
+						<ul class="category2">
+							<li class="category2-li"><img src="images/chart2.png">Réseau social<div class="open4">+</div><div class="close4">-</div></li>
+								<ul class="category2-sub">
+									<li>Facebook</li>
+									<li>Twitter</li>
+									<li>Instagram</li>
+									<li>Soundcloud</li>
+									<li>Youtube</li>
+								</ul>
+						</ul>
+					</nav>
+						<p>Évolution</p>
+							<div class="ct-chart"></div>
+				</div>
+			</div>
+			<div class="card-2">
+				<div class="frame-2">
+					<h3>Nombre total de followers : <strong>405 950 394.</strong></h3>
+					<div class="ct-chart2"></div>
+					<ul>
+						<li><div class="circle circle-facebook"></div><p>Facebook : <b class="fb-nt">4939 likes</b></p></li>
+						<li><div class="circle circle-twitter"></div><p>Twitter : <b class="tw-nt">6509 followers</b></p></li>
+						<li><div class="circle circle-instagram"></div><p>Instagram : <b class="it-nt">709 followers</b></p></li>
+						<li><div class="circle circle-soundcloud"></div><p>Soundcloud : <b class="sc-nt">109 809 écoutes</b></p></li>
+						<li><div class="circle circle-youtube"></div><p>Youtube : <b class="yt-nt">120 209 390 vues</b></p></li>
+					</ul>
+				</div>	
+			</div>
+			<div class="card-3">
+				<div class="frame-3">
+					<h3>Activités récentes</h3>
+						<div class="notifications">
+							<ul>
+								<li><div class="circle-notif"></div><p><b>Valentin</b> vous a suivi il y a <q>5 min</q></p></li>
+								<li><div class="circle-notif"></div><p><b>Griezman</b> vous a suivi il y a <q>7 min</q></p></li>
+								<li><div class="circle-notif"></div><p><b>Bill_93</b> vous a suivi il y a <q>15 min</q></p></li>
+								<li><div class="circle-notif"></div><p><b>Flop</b> vous a suivi il y a <q>19 min</q></p></li>
+								<li><div class="circle-notif"></div><p><b>Elvinn</b> vous a suivi il y a <q>29 min</q></p></li>
+								<li><div class="circle-notif"></div><p><b>Paul_zer</b> vous a suivi il y a <q>32 min</q></p></li>
+								<li><div class="circle-notif"></div><p><b>Nino Brown</b> vous a suivi il y a <q>45 min</q></p></li>
+							</ul>
+						</div>
+				</div>
+			</div>
+		</div>	
+		
+	</main>
+	<!-- FIN MAIN -->
+
+	<!-- DEBUT FOOTER -->
+	<footer></footer>
+	<!-- FIN FOOTER -->
+
+	<!-- SCRIPT -->
+    <script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="js/menu-burger.js"></script>
+	  	<!-- animsition.css + animsition.js-->
+		  	<link rel="stylesheet" href="dist/css/animsition.min.css">
+		  	<script src="dist/js/animsition.min.js"></script>
+		  	<script type="text/javascript" src="js/fade.js"></script>
+</body>
+</html>

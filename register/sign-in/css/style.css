@@ -1,0 +1,115 @@
+/*FONTS*/
+	@font-face {
+	    font-family: 'Proxima';
+	    src: url(../font/Proxima/ProximaNova-Regular.otf);
+	}
+	@font-face {
+	    font-family: 'Proxima-Black';
+	    src: url(../font/Proxima/ProximaNova-Black.otf);
+	}
+	@font-face {
+	    font-family: 'Proxima-Bold';
+	    src: url(../font/Proxima/ProximaNova-Bold.otf);
+	}
+	@font-face {
+	    font-family: 'Proxima-Light';
+	    src: url(../font/Proxima/ProximaNova-Light.otf);
+	}
+	@font-face {
+	    font-family: 'Proxima-SemiBold';
+	    src: url(../font/Proxima/ProximaNova-Semibold.otf);
+	}
+	@font-face {
+	    font-family: 'Proxima-ExtraBold';
+	    src: url(../font/Proxima/ProximaNova-Extrabold.otf);
+	}
+
+body {
+    font-family: 'Proxima';
+    background: url(../images/back.jpg) no-repeat;
+    background-size: cover;
+}
+
+a {
+	text-decoration: none;
+	color: #7e52a1;
+	font-family: 'Proxima-Bold';
+    font-weight: bold;
+}
+
+p {
+	color: black;
+	font-family: 'Proxima-Bold';
+    font-weight: bold;
+}
+
+/*HEADER*/
+	header img {
+		margin: 15vh auto 10vh;
+		display: block;
+		width: 150px;
+	}	
+
+/*MAIN*/
+	/*FORM*/
+	form input, form button {
+		display: block;
+		margin:auto;
+	}
+
+	form input {
+		width: 300px;
+		margin-bottom:40px;
+		padding: 15px;
+		border-radius: 10px;
+		border: 1.2px solid #8b98a3;
+	}
+
+	form button {
+	    color: white;
+	    margin-top: 10vh;
+	    width: 100px;
+	    background: #8ca0b3;
+	    border: none;
+	    border-radius: 20px;
+	    padding: 10px;
+	    letter-spacing: 1px;
+   	}
+
+   	.info {
+    	margin: 10vh auto;
+	    display: block;
+	    width: 390px;
+	    text-align: center;
+	    line-height: 2;
+   	}
+
+/*---------------------------------PARTIE RESPONSIVE----------------------------------*/
+
+/*DIMENSION IPHONE 6 PLUS*/
+@media screen and (max-width: 414px) {
+	header img {
+	    margin: 10vh auto 10vh;
+	    display: block;
+	    width: 150px;
+	}
+
+	form input {
+   		width: 70%;
+	}
+
+	.info {
+	    width: 80%;
+    	font-size: 15px;
+	}
+}
+
+/*DIMENSION IPHONE 6*/
+@media screen and (max-width: 360px) {
+	
+}	
+
+/*DIMENSION IPHONE 5*/
+@media screen and (max-width: 320px) {
+
+}

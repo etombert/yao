@@ -1,0 +1,133 @@
+/*FONTS*/
+	@font-face {
+	    font-family: 'Proxima';
+	    src: url(../font/Proxima/ProximaNova-Regular.otf);
+	}
+	@font-face {
+	    font-family: 'Proxima-Black';
+	    src: url(../font/Proxima/ProximaNova-Black.otf);
+	}
+	@font-face {
+	    font-family: 'Proxima-Bold';
+	    src: url(../font/Proxima/ProximaNova-Bold.otf);
+	}
+	@font-face {
+	    font-family: 'Proxima-Light';
+	    src: url(../font/Proxima/ProximaNova-Light.otf);
+	}
+	@font-face {
+	    font-family: 'Proxima-SemiBold';
+	    src: url(../font/Proxima/ProximaNova-Semibold.otf);
+	}
+	@font-face {
+	    font-family: 'Proxima-ExtraBold';
+	    src: url(../font/Proxima/ProximaNova-Extrabold.otf);
+	}
+
+body {
+    font-family: 'Proxima';
+    background: url(../images/back.jpg) no-repeat;
+    background-size: cover;
+}
+
+a {
+	text-decoration: none;
+	color: #7e52a1;
+}
+
+p {
+	color: black;
+}
+
+/*HEADER*/
+	header img {
+		margin: 5vh auto 8vh;
+		display: block;
+		width: 150px;
+	}	
+
+/*MAIN*/
+	/*FORM*/
+	.organisation,.pseudo,.email,.confirm-email,.password,.confirm-password {
+		display: block;
+		margin:auto;
+		width: 300px;
+		margin-bottom:30px;
+		padding: 12px 15px;
+		border-radius: 10px;
+		border: 1.2px solid #8b98a3;
+	}
+
+	form button {
+		display: block;
+		margin:auto;
+	}
+
+	form button {
+	    color: white;
+	    margin-top: 5vh;
+	    width: 100px;
+	    background: #8ca0b3;
+	    border: none;
+	    border-radius: 20px;
+	    padding: 10px;
+	    letter-spacing: 1px;
+   	}
+
+   	form label {
+   		margin: 20px auto;
+   		line-height: 1.3;
+	    display: block;
+	    width: 30%;
+    	color: black;
+   	}
+
+	form label input {
+		margin-right: 10px;
+	}
+
+   	.info {
+    	margin: 5vh auto;
+	    display: block;
+	    width: 390px;
+	    text-align: center;
+	    line-height: 2;
+   	}
+
+
+/*---------------------------------PARTIE RESPONSIVE----------------------------------*/
+
+/*DIMENSION IPHONE 6 PLUS*/
+@media screen and (max-width: 414px) {
+	header img {
+	    margin: 10vh auto 10vh;
+	    display: block;
+	    width: 150px;
+	}
+
+	.organisation,.pseudo,.email,.confirm-email,.password,.confirm-password {
+   		width: 70%;
+	}
+
+	.info {
+	    width: 80%;
+    	font-size: 15px;
+	}
+}
+
+/*DIMENSION IPHONE 6*/
+@media screen and (max-width: 768px) {
+	   	form label {
+   		margin: 20px auto;
+   		line-height: 1.3;
+	    display: block;
+	    width: 90%;
+    	color: black;
+    	text-align: center;
+   	}
+}	
+
+/*DIMENSION IPHONE 5*/
+@media screen and (max-width: 320px) {
+
+}
